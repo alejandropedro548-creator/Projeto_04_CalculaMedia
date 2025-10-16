@@ -9,9 +9,9 @@ media = total / 4
 
 print(media)
 
-if media > 7.0:
-    print("Aprovado(a ✅")
-elif media > 5.0 and media < 7.0:
+if media >= 7.0:
+    print("Aprovado(a) ✅")
+elif media >= 5.0 and media < 7.0:
     print("Recuperação ⚠️")
 else:
-    print("reprovado ❌🤣🤣🤣🤣🤣")
+    print("Reprovado(a) ❌🤣🤣🤣🤣🤣")
